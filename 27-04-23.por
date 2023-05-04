@@ -2,51 +2,70 @@ programa
 {
 	
 	funcao inicio(){
-	inteiro numeroCandidato = 1,
-	contador = 0, opcao
-
-	escreva("digite o numero do candidato: ")
-		leia(numeroCandidato, opcao)
-
-	escolha(numeroCandidato){
-		caso 1:
-			escreva("candidato 1 recebeu um voto")
-		pare
-		caso 2:
-			escreva("candidato 2 recebeu um voto")
-		pare
-		caso 3:
-			escreva("candidato 3 recebeu um voto")
-		pare
-		caso contrario:
-			escreva("nenhum candidato foi votado ")
-
-	faca { 
-
-	escreva("digite 1 para somar ao contador ou 0 para parar: ")
-		
+	inteiro
+	codigoVoto,
+	votosTotais = 0,
+	votosCandidato1,
+	votosCandidato2,
+	votosCandidato3,
+	votosBrancos,
+	votosNulos != 1 2 3 4
+	numeroDoCandidato = 1,2,3
 	
-		caso 1:
-			(contador+)
+	real
+	percentualDeVotos = 100.0,
+	percentualDeVotosCandidato1,
+	percentualDeVotosCandidato2,
+	percentualDeVotosCandidato3,
+	percentualDeVotosBrancos,
+	percentualDeVotosNulos
+
+	cadeia
+	nomeDoCandidato1
+	nomeDoCandidato2
+	nomeDoCandidato3
+	
+	caracter
+	candidato1 = 1 =
+	candidato2 = 2 =
+	candidato3 = 3
+	branco = 4 
+	nulo != 1 2 3 4
+	
+	escreva("digite sua o numero do seu candidato: ")
+
+	escolha
+		{caso 1:
+			escreva("digite 1 para somar ao contador ou 0 para parar: ")
+		(votosCandidato1 ++)
 		pare
-		caso contrario:
-			/* não faça nada
+	
+	faca { enquanto ()
+	escreva("Quantidade de votos ", nomeDoCandidato1, ":", candidato1 )
+	limpa()
+	
+
+	votosCandidato1 / 100.0 = percentualDeVotosCandidato1
+	votosCandidato2 / 100.0 = percentualDeVotosCandidato2
+	votosCandidato3 / 100.0 = percentualDeVotosCandidato3
+	votosBrancos / 100.0 = percentualDeVotosBrancos
+	VotosNulos / 100.0 = percentualDeVotosNulos
+	
+	limpa()
+	escreva("O percentual de votos " ), leia(percentualDeVotosCandidato1, percentualDeVotosCandidato2, percentualDeVotosCandidato3, percentualDeVotosBrancos ou percentualDeVotosNulos "%\n")
+	escreva("Candidato Eleito  é: " nomeDoCandidato1, nomeDoCandidato2, nomeDoCandidato3 "\n")
+	
+	se(percentualDeVotosCandidato1, percentualDeVotosCandidato2, percentualDeVotosCandidato3, percentualDeVotosBrancos ou percentualDeVotosNulos =>51)
+	escreva("candidato eleito: "){
+		
+				/* não faça nada
 		} /* fim escolha */
-	 enquanto (opcao != 0)	
-
-	escreva("valor contador: ", contador)	 
-	}
-
-
-}
-	}
-}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 498; 
+ * @POSICAO-CURSOR = 1319; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -2,36 +2,27 @@ programa
 {
 	
 	funcao inicio(){
-	real
+	inteiro
 	candidato1 = 1,
 	candidato2 = 2,
 	candidato3 = 3,
 	brancos = 4,
 	nulos = 5,
+
+	real
 	votosTotais = 10,
 	codigoVoto,
-	votosCandidato1,
-	votosCandidato2,
-	votosCandidato3,
-	votosBrancos,
-	votosNulos,
 	percentualDeVotosTotais = 100.0,
-	percentualDeVotosCandidato1,
+	percentualDeVotosCandidato1 ,
 	percentualDeVotosCandidato2,
 	percentualDeVotosCandidato3,
-	percentualDeVotosBrancos,
-	percentualDeVotosNulos
-	
-	cadeia
-	percentualDeVotosCandidato1 = Ana Carolina
-	percentualDeVotosCandidato2 = Alex Manente
-	percentualDeVotosCandidato3 = Orlando Morando
-	percentualDeVotosBrancos = brancos
-	percentualDeVotosNulos = nulos
+	percentualDeVotosBrancos = brancos,
+	percentualDeVotosNulos = nulos,
 	percentualDeVotosTotais = (votosCandidato1 + votosCandidato2 + votosCandidato3 + votosBrancos + votosNulos)/100
 
+	cadeia
 	
-	escreva("Digite sua o numero do seu candidato: ", numeroCandidato)
+	escreva("Digite sua o numero do seu candidato: " )
 			escreva("digite 1 para somar ao contador ou 0 para parar: ")
 		pare
 	
@@ -71,7 +62,7 @@ programa
 
 	faca calcule (percentualDeVotosCandidato1,percentualDeVotosCandidato2,percentualDeVotosCandidato3,percentualDeVotosBrancos e percentualDeVotosNulos)
 
-		se (candidatoEleito1) = (votosCandidato1 + votosBrancos)/100 =>51.0
+		(candidato1) = (votosCandidato1 + votosBrancos)/100 =>51.0
 	}
 	escreva("O(a) candidato(a) eleito é: Ana Carolina!")
 	 senao {
@@ -89,7 +80,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 731; 
+ * @POSICAO-CURSOR = 464; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

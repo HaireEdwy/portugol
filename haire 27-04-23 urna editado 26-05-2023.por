@@ -26,18 +26,18 @@
 //			}
 
 //			para (inteiro contador = 0; contador < quantidadeDeNotas ; contador++) {
-//				escreva("Nota do aluno", contador+1, ":", notaAluno[contador], "/n")}
+//				escreva("Nota do aluno", contador+1, ":", notaAluno[contador], "\n")}
 //	}
 		funcao inteiro apVt(){
 		codVt= 0
 		}
 		
 		funcao inteiro vtCand(){
-		vtCand1
-		vtCand2
-		vtCand3
-		vtBrancos
-		vtNulos
+		vtCand1,
+		vtCand2,
+		vtCand3,
+		vtBrancos,
+		vtNulos,
 		}
 		
 		funcao numCand(){
@@ -87,7 +87,7 @@
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 847; 
+ * @POSICAO-CURSOR = 838; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

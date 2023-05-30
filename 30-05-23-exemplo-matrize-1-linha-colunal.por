@@ -6,7 +6,7 @@ programa
 	//cada elemento matriz possui dois índices
 	//de referência ("i","j")
 				//    [i][j]    i=linha, j=coluna
-		inteiro matriz [2][3] = {{20,30,40},{200,300,400}}
+		inteiro matriz [2][3] = {{200,300,400},{700,800,900}}
 		//i0,j0  i1,j1  i2,j,2
 		// 200    300	  400
 		// 700    800    900
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 403; 
+ * @POSICAO-CURSOR = 438; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

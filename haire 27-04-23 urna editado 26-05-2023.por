@@ -51,7 +51,7 @@
 			limpa()
 			escreva("Após a apuração com ", pCandEleito," dos votos, o candidato eleito é: ", candEleito)
 			}
-					enquanto calcule (apFinal)
+					enquanto (apFinal)
 					escreva()
 	}	
 /* $$$ Portugol Studio $$$ 
@@ -59,7 +59,7 @@
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 603; 
+ * @POSICAO-CURSOR = 1181; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

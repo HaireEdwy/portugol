@@ -1,5 +1,33 @@
 	programa
 	{
+		
+	//		inteiro MULTIPLICANDO = 7
+		
+//		escreva("**Tabuada do 7 até 100**\n\n")
+
+//		para (inteiro multiplicador = 0; multiplicador <=100; multiplicador +=3) {
+			
+//			escreva (MULTIPLICANDO, " X ", multiplicador, " = " , MULTIPLICANDO*multiplicador, "\n")
+			
+//			se ((MULTIPLICANDO*multiplicador) %2 == 0) {
+//				escreva(" -> Este número é par.")
+//				}
+//		real notaAluno[5]
+//		inteiro quantidadeDeNotas 
+
+//		escreva("imprima a quantidade de notas: ")
+//		leia(quantidadeDeNotas)
+
+//		para (inteiro contador = 0 ; contador < quantidadeDeNotas; contador++) {
+//			escreva("Nota do Aluno",contador+1, ":")
+//			leia(notaAluno[contador])
+//			escreva("/n")
+			
+//			}
+
+//			para (inteiro contador = 0; contador < quantidadeDeNotas ; contador++) {
+//				escreva("Nota do aluno", contador+1, ":", notaAluno[contador], "/n")}
+//	}
 		funcao inteiro apVt(){
 		codVt= 0
 		}
@@ -59,7 +87,7 @@
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1181; 
+ * @POSICAO-CURSOR = 847; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
